@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #030637;
+    color: #fb2576;
+}
+
+div {
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    justify-content: center;
+    border: 2px solid lightgoldenrodyellow;
+    margin: 5px;
+    padding: 5px;
+}
+
+a {
+    color: hotpink;
+    text-decoration: none;
+}
