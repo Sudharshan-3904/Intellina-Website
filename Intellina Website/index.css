@@ -1,5 +1,5 @@
 * {
-    font-family: "Quicksand", sans-serif, monospace;
+    font-family: "Courier New", Courier, monospace;
     font-variant: small-caps;
     box-sizing: border-box;
     margin: 5px;
@@ -7,6 +7,7 @@
 
 body {
     align-items: center;
+    font-size: large;
     align-content: space-around;
     justify-content: center;
     text-align: center;
@@ -25,6 +26,8 @@ header {
     background-size: cover;
     background-position: center;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     border-image: linear-gradient(to bottom right, #3c0753, #720455) 30;
     border-width: 2px;
     border-style: solid;
@@ -44,20 +47,22 @@ header {
     font-size: 10vh;
     width: 100%;
     position: absolute;
-    top: 35%;
+    top: 45%;
     transition: ease-in 500ms;
     padding: 0;
     margin: 0;
+    text-shadow: 0 0 10px black;
 }
 
 #event-main-disc {
     font-size: 3vh;
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 55%;
     transition: ease-in 700ms;
     padding: 0;
     margin: 0;
+    text-shadow: 0 0 10px black;
 }
 
 nav {
@@ -219,7 +224,7 @@ div.event-subcontainer {
 }
 
 h3.event-title {
-    background-color: transparent;
+    font-size: 30px;
 }
 
 div.tech-event-container {
@@ -377,8 +382,8 @@ div#non-tech-connections-container {
     background-position: center;
 }
 
-div#non-tech-kollywood-trivia-container {
-    background: url("./images/nonTechBgs/kollywood_trivia.png");
+div#non-tech-hidden-heist-container {
+    background: url("./images/nonTechBgs/HiddenHeist_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -417,7 +422,6 @@ div.non-tech-event-subcontainer {
     opacity: 0;
     margin: 5px;
     font-weight: 750;
-    color: inherit;
 }
 
 div.non-tech-event-subcontainer:hover {
@@ -435,7 +439,7 @@ div.fun-event-subcontainer:hover {
 }
 
 div.fun-event-container {
-    background: url("./images/funBgs/temp.png");
+    background: url("./images/funBgs/Funevent_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -457,7 +461,7 @@ img#cit-logo:hover {
 footer {
     display: flex;
     flex-wrap: wrap;
-    font-size: medium;
+    font-size: larger;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -477,7 +481,7 @@ footer {
 }
 
 .further-details {
-    font-size: small;
+    font-size: large;
     margin: auto;
     padding: auto;
     align-items: flex-end;
