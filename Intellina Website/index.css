@@ -13,7 +13,7 @@ body {
     margin: 5px;
     display: inline-table;
     background-color: #030637;
-    color: #fb2576;
+    color: beige;
 }
 
 header {
@@ -26,7 +26,7 @@ header {
     background-position: center;
     text-align: center;
     border-image: linear-gradient(to bottom right, #3c0753, #720455) 30;
-    border-width: 4px;
+    border-width: 2px;
     border-style: solid;
     animation: fadeIn 500ms;
 }
@@ -76,11 +76,17 @@ button.dropbtn {
     color: inherit;
 }
 
+hr.drop-down-hr {
+    border: none;
+    height: 2px;
+    border-top: 1px solid gold;
+}
+
 button.dropbtn:hover {
     background-image: linear-gradient(to bottom right, orange, white, green);
     transition-duration: 300ms;
     border-radius: 20px;
-    color: inherit;
+    color: brown;
 }
 
 .dropdown {
@@ -98,7 +104,7 @@ button.dropbtn:hover {
     margin: 1px;
     border-radius: 5px;
     border: 1.5px solid;
-    background: rgba(247, 239, 239, 0.521);
+    background: rgba(78, 58, 1, 0.932);
     box-shadow: 0 2px 5px rgba(219, 243, 5, 0.808);
     color: inherit;
 }
@@ -174,7 +180,7 @@ section {
     justify-content: center;
     text-align: center;
     width: minmax(100px, 40%);
-    border-width: 3px;
+    border-width: 1px;
     border-style: ridge;
     border-color: #3c0753;
 }
@@ -191,12 +197,15 @@ h2.category-header {
 }
 
 div.event-container {
-    border-width: 2px;
+    border-width: 1px;
     border-style: solid;
     justify-content: stretch;
     display: visible;
     width: 400px;
     height: 300px;
+    font-weight: bolder;
+    color: black;
+    text-shadow: 0 0 5px white;
 }
 
 div.event-subcontainer {
@@ -205,8 +214,8 @@ div.event-subcontainer {
     display: inline-block;
     justify-content: stretch;
     text-align: center;
-    padding-top: 40%;
-    color: cyan;
+    padding-top: 20%;
+    color: inherit;
 }
 
 h3.event-title {
@@ -217,10 +226,44 @@ div.tech-event-container {
     background: url("./images/techBgs/temp.png");
     background-repeat: no-repeat;
     background-size: cover;
-    color: inherit;
     background-position: center;
     overflow: hidden;
     margin: 5px;
+}
+
+div#tech-hack-attack-container {
+    background: url("./images/techBgs/HackAttack_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div#tech-paper-prose-container {
+    background: url("./images/techBgs/PaperProse_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div#tech-prompt-mania-container {
+    background: url("./images/techBgs/PromptMania_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div#tech-tech-trivia-container {
+    background: url("./images/techBgs/TechTrivia_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div#tech-web-weave-container {
+    background: url("./images/techBgs/WebWeave_bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 div.tech-event-content-slider-container {
@@ -276,10 +319,6 @@ input.non-tech-slider-buttons {
 }
 
 div.non-tech-event-container {
-    background: url("./images/nonTechBgs/temp.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     margin: 5px;
 }
 
@@ -290,49 +329,49 @@ div.non-tech-event-content-slider-container {
 }
 
 div#non-tech-ipl-auction-container {
-    background: url("./images/nonTechBgs/ipl.jpg");
+    background: url("./images/nonTechBgs/IPLAuction_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 div#non-tech-escape-room-container {
-    background: url("./images/nonTechBgs/escape_room.jpg");
+    background: url("./images/nonTechBgs/EscapeRoom_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 div#non-tech-treasure-hunt-container {
-    background: url("./images/nonTechBgs/treasure_hunt.jpeg");
+    background: url("./images/nonTechBgs/TreasureHunt_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-div#non-tech-dump-show-container {
-    background: url("../images/nonTechBgs/dump_show.jpeg");
+div#non-tech-dumb-show-container {
+    background: url("./images/nonTechBgs/DumbShow_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 div#non-tech-anime-quiz-container {
-    background: url("./images/nonTechBgs/anime_quiz.jpeg");
+    background: url("./images/nonTechBgs/AnimeQuiz_bg.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
 div#non-tech-dance-music-container {
-    background: url("./images/nonTechBgs/dance_music.jpg");
+    background: url("./images/nonTechBgs/DanceMusic_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 div#non-tech-connections-container {
-    background: url("./images/nonTechBgs/connection.jpg");
+    background: url("./images/nonTechBgs/Connection_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -377,9 +416,8 @@ div.non-tech-event-content-slider:nth-child(1) {
 div.non-tech-event-subcontainer {
     opacity: 0;
     margin: 5px;
-    text-shadow: 0 0 5px #45ffca;
     font-weight: 750;
-    color: #1d2b53;
+    color: inherit;
 }
 
 div.non-tech-event-subcontainer:hover {
@@ -412,6 +450,7 @@ img#cit-logo:hover {
     width: 30%;
     border: 3px solid plum;
     border-radius: 50%;
+    animation: 1s fadeIn;
     transition-duration: 700ms;
 }
 
