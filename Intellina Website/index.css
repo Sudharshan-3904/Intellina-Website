@@ -311,7 +311,7 @@ div#non-tech-treasure-hunt-container {
 }
 
 div#non-tech-dump-show-container {
-    background: url("./images/nonTechBgs/dump_show.jpeg");
+    background: url("../images/nonTechBgs/dump_show.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
