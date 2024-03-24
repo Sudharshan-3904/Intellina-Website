@@ -20,12 +20,12 @@ header {
     top: 40%;
     min-height: 50vh;
     display: block;
-    background-image: url("../images/intellina.png");
+    background-image: url("./images/intellina.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     text-align: center;
-    border-image: linear-gradient(to bottom right, #720455, #3c0753) 30;
+    border-image: linear-gradient(to bottom right, #3c0753, #720455) 30;
     border-width: 4px;
     border-style: solid;
     animation: fadeIn 500ms;
@@ -95,8 +95,10 @@ button.dropbtn:hover {
     min-width: 50%;
     z-index: 1;
     padding: 5px;
+    margin: 1px;
     border-radius: 5px;
-    background-color: rgba(224, 231, 160, 0.541);
+    border: 1.5px solid;
+    background: rgba(247, 239, 239, 0.521);
     box-shadow: 0 2px 5px rgba(219, 243, 5, 0.808);
     color: inherit;
 }
@@ -212,7 +214,7 @@ h3.event-title {
 }
 
 div.tech-event-container {
-    background: url("../images/techBgs/temp.png");
+    background: url("./images/techBgs/temp.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: inherit;
@@ -274,7 +276,7 @@ input.non-tech-slider-buttons {
 }
 
 div.non-tech-event-container {
-    background: url("../images/nonTechBgs/temp.png");
+    background: url("./images/nonTechBgs/temp.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -288,56 +290,56 @@ div.non-tech-event-content-slider-container {
 }
 
 div#non-tech-ipl-auction-container {
-    background: url("../images/nonTechBgs/ipl.jpg");
+    background: url("./images/nonTechBgs/ipl.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 div#non-tech-escape-room-container {
-    background: url("../images/nonTechBgs/escape_room.jpg");
+    background: url("./images/nonTechBgs/escape_room.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 div#non-tech-treasure-hunt-container {
-    background: url("../images/nonTechBgs/treasure_hunt.jpeg");
+    background: url("./images/nonTechBgs/treasure_hunt.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 div#non-tech-dump-show-container {
-    background: url("../images/nonTechBgs/dump_show.jpeg");
+    background: url("./images/nonTechBgs/dump_show.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 div#non-tech-anime-quiz-container {
-    background: url("../images/nonTechBgs/anime_quiz.jpeg");
+    background: url("./images/nonTechBgs/anime_quiz.jpeg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 
 div#non-tech-dance-music-container {
-    background: url("../images/nonTechBgs/dance_music.jpg");
+    background: url("./images/nonTechBgs/dance_music.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 div#non-tech-connections-container {
-    background: url("../images/nonTechBgs/connection.jpg");
+    background: url("./images/nonTechBgs/connection.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 div#non-tech-kollywood-trivia-container {
-    background: url("../images/nonTechBgs/kollywood_trivia.png");
+    background: url("./images/nonTechBgs/kollywood_trivia.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -395,10 +397,22 @@ div.fun-event-subcontainer:hover {
 }
 
 div.fun-event-container {
-    background: url("../images/funBgs/temp.png");
+    background: url("./images/funBgs/temp.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+img#cit-logo {
+    width: 30%;
+    margin: 25px;
+}
+
+img#cit-logo:hover {
+    width: 30%;
+    border: 3px solid plum;
+    border-radius: 50%;
+    transition-duration: 700ms;
 }
 
 footer {
@@ -413,12 +427,14 @@ footer {
 .social-media {
     margin: auto;
     width: 30%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     display: flex;
 }
 
-.social-media a {
-    padding-left: 12px;
+.social-media a:hover {
+    border: 1px solid plum;
+    border-radius: 25%;
+    transition-duration: 700ms;
 }
 
 .further-details {
