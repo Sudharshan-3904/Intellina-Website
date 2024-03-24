@@ -4,6 +4,9 @@
 
 body {
     background-color: #030637;
+    background-image: url("../images/techBgs/HackAttack_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fb2576;
 }
 
@@ -20,4 +23,9 @@ div {
 a {
     color: hotpink;
     text-decoration: none;
+}
+
+#event-main-title {
+    text-align: center;
+    font-variant: small-caps;
 }
