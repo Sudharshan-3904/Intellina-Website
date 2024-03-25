@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/nonTechBgs/TreasureHunt_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    text-shadow: 0 0 15px white;
+}
+
+div {
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    justify-content: center;
+    border: 2px solid lightgoldenrodyellow;
+    margin: 5px;
+    padding: 5px;
+    backdrop-filter: blur(2px);
+}
+
+ol#no-number-list {
+    list-style: none;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+#event-main-title {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 50px;
+}
+
+div#home-container {
+    display: inline-flex;
+    border: none;
+}
+
+img#home-icon {
+    width: 35px;
+}
