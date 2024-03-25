@@ -7,7 +7,13 @@ body {
     background-image: url("../images/techBgs/PaperProse_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    color: #fb2576;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    text-shadow: 0 0 15px white;
 }
 
 div {
@@ -15,17 +21,28 @@ div {
     width: 400px;
     height: auto;
     justify-content: center;
+    backdrop-filter: blur(2px);
     border: 2px solid lightgoldenrodyellow;
     margin: 5px;
     padding: 5px;
 }
 
 a {
-    color: hotpink;
+    color: blue;
     text-decoration: none;
 }
 
 #event-main-title {
     text-align: center;
     font-variant: small-caps;
+    font-size: 50px;
+}
+
+div#home-container {
+    display: inline-flex;
+    border: none;
+}
+
+img#home-icon {
+    width: 35px;
 }

@@ -65,6 +65,17 @@ header {
     text-shadow: 0 0 10px black;
 }
 
+#event-main-date {
+    font-size: 3vh;
+    width: 100%;
+    position: absolute;
+    top: 58%;
+    transition: ease-in 700ms;
+    padding: 0;
+    margin: 0;
+    text-shadow: 0 0 10px black;
+}
+
 nav {
     position: relative;
     width: 100%;
@@ -443,6 +454,16 @@ div.fun-event-container {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+div.fun-event-subcontainer {
+    font-weight: bolder;
+    text-shadow: 0 0 55px whitesmoke;
+}
+
+div.fun-event-subcontainer:hover {
+    font-weight: 900;
+    text-shadow: 0 0 55px white;
 }
 
 img#cit-logo {
